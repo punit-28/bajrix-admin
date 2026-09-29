@@ -1,0 +1,35 @@
+# Dependencies (if you add a backend later)
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploads
+uploads/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
